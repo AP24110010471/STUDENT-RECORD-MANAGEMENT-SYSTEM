@@ -29,16 +29,13 @@ Each student record is stored in the format:
 
 roll name mark
 
-makefile
-Copy code
+
 
 Example:
 
 1 John 78.5
 2 Maya 88.0
 
-yaml
-Copy code
 
 ---
 
@@ -48,8 +45,6 @@ Format:
 
 username password role
 
-makefile
-Copy code
 
 Example:
 
@@ -57,8 +52,7 @@ admin admin123 admin
 staff staff123 staff
 guest guest123 guest
 
-yaml
-Copy code
+
 
 ---
 
@@ -70,8 +64,6 @@ Student-Management/
 ├── credentials.txt
 └── README.md
 
-yaml
-Copy code
 
 ---
 
@@ -90,8 +82,6 @@ Delete Student
 
 Logout
 
-shell
-Copy code
 
 ### Staff Menu
 Add Student
@@ -104,8 +94,6 @@ Update Student
 
 Logout
 
-shell
-Copy code
 
 ### Guest Menu
 Display Students
